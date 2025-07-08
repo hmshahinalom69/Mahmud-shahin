@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mahamud Personal Blog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="matrix-canvas"></canvas>
+
+  <div class="container">
+    <header>
+      <h1>Mahamud Shahin</h1>
+      <p>Data Entry | Virtual Assistant | Canva Designer</p>
+      <nav>
+        <button onclick="navigate('home')">Home</button>
+        <button onclick="navigate('about')">About Me</button>
+        <button onclick="navigate('blog')">Blog</button>
+        <button onclick="navigate('articles')">Articles</button>
+        <button onclick="navigate('photos')">Photos</button>
+        <button onclick="navigate('contact')">Contact</button>
+      </nav>
+    </header>
+
+    <main id="content">
+      <section id="home">
+        <h2>Welcome to My Blog</h2>
+        <p>This is a personal space where I share my thoughts, articles, and journey.</p>
+      </section>
+
+      <section id="about" style="display:none;">
+        <h2>About Me</h2>
+        <p>Hi! I’m Mahmud Shahin. I’m starting my journey in Data Entry, Virtual Assistance, and Canva Designing. I love working with digital tools and sharing what I learn along the way.</p>
+      </section>
+
+      <section id="blog" style="display:none;">
+        <h2>Blog Posts</h2>
+        <p>Coming soon...</p>
+      </section>
+
+      <section id="articles" style="display:none;">
+        <h2>Articles</h2>
+        <p>Here you can add your articles later.</p>
+      </section>
+
+      <section id="photos" style="display:none;">
+        <h2>Photos</h2>
+        <p>Upload your profile and other photos here. (photo1.jpg, photo2.jpg etc.)</p>
+        <div class="photo-gallery">
+          <img src="photos/photo1.jpg" alt="Photo 1" />
+          <img src="photos/photo2.jpg" alt="Photo 2" />
+        </div>
+      </section>
+
+      <section id="contact" style="display:none;">
+        <h2>Contact Me</h2>
+        <ul>
+          <li><a href="https://www.facebook.com/share/169J5Rdkhe/" target="_blank">Facebook</a></li>
+          <li><a href="https://www.linkedin.com/in/mahmudshahin0" target="_blank">LinkedIn</a></li>
+          <li><a href="https://www.instagram.com/mahmudshahin0" target="_blank">Instagram</a></li>
+          <li><a href="https://x.com/MahmudShahin0" target="_blank">Twitter</a></li>
+        </ul>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
